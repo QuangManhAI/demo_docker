@@ -131,13 +131,13 @@
         ```
     * Sẽ thấy:
         ```
-        Forwarding    https://_______.ngrok-free.app -> http://localhost:8000
+        Forwarding    https://ffeb5020e2fa.ngrok-free.app -> http://localhost:8000
         ```
 
 * Có thể thử với `sample.json`:
 
-    ```bash
-    curl -X POST "http://127.0.0.1:8000/predict" \
+    ```
+        curl -X POST "https://ffeb5020e2fa.ngrok-free.app predict" \
         -H "Content-Type: application/json" \
         -d @sample.json
-    ``` # demo_docker
+    ``` 
