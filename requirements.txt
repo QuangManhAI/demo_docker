@@ -1,0 +1,20 @@
+# PyTorch với CUDA 12.1 Cho RTX 3050 6GB Vram
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+torchaudio==2.3.1+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Xử lý dữ liệu
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# Tiện ích
+tqdm==4.66.4
+matplotlib==3.9.0
+scikit-learn==1.5.1
+
+
+# API demo
+fastapi==0.111.0
+uvicorn==0.30.1

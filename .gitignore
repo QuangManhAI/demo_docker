@@ -1,0 +1,26 @@
+# Bỏ qua thư mục ảo và cache
+__pycache__/
+_lib/
+*.pyc
+
+# File model và scaler
+gru_passenger_best.pt
+scaler_X.pkl
+scaler_y.pkl
+
+# Dữ liệu và file tạm
+*.csv
+*.log
+
+# Ngrok binary
+ngrok-v3-stable-linux-amd64.tgz
+ngrok
+
+# Docker file tạm
+*.tar
+*.img
+
+# Hệ điều hành / IDE
+.DS_Store
+.vscode/
+.idea/
